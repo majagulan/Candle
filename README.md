@@ -1,3 +1,3 @@
-# Candle
+# Video Library
 
-### Computer Graphics Project
+### CASE Oracle DataModeler class project

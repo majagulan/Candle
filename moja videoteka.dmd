@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="moja videoteka" id="520C78D0-8E7D-A779-044E-406D4BA23B21" version="3.5">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:08:05 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>520C78D0-8E7D-A779-044E-406D4BA23B21</designId>
+</OSDM_Design>

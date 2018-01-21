@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2D6888A-C71E-F3BD-EB3E-77A0AF697EFF" name="Racun vid">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:21:08 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ziro_broj" id="7A822922-3E41-EAF5-8BE1-9E7406280F94">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:21:15 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stanje_racuna" id="3D68263E-7ABB-7E1F-8179-CF18690916E1">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:21:31 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="v_naziv" id="5B489A95-0BDF-E6B8-1C87-B0BC9F58E54E">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:22:05 UTC</createdTime>
+<generatorID>D197F84A-6DB3-CEC4-9114-304CF4B8DC29</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<referedAttribute>A11CCB74-993D-23C7-68EF-BD1471A44608</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3F528A6-E9B7-9265-564F-738FECAC3F12" name="Racun vid PK">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:21:30 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7A822922-3E41-EAF5-8BE1-9E7406280F94</attributeRef>
+<attributeRef>5B489A95-0BDF-E6B8-1C87-B0BC9F58E54E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

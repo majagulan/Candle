@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCC27D9B-758A-4896-7CE1-552887CE0DA3" name="Radnik">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:11:51 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="AEDCD879-15E9-D4C3-C811-E5A72C08505E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>FB573489-A77A-2312-8FD8-87D5A1E78F6E</discriminatorAttributeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IBR" id="7F17AC42-2C7C-85FB-C815-FE62816CDBCB">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:12:00 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="AEDCD879-15E9-D4C3-C811-E5A72C08505E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="v_naziv" id="330AB703-BAC1-42EE-C8E4-1FA294679D04">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:18:46 UTC</createdTime>
+<generatorID>4A324EF8-ADE4-568E-54A7-ABEFDB058B2C</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="AEDCD879-15E9-D4C3-C811-E5A72C08505E" value="true"/>
+</engineerTo>
+<referedAttribute>A11CCB74-993D-23C7-68EF-BD1471A44608</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip" id="FB573489-A77A-2312-8FD8-87D5A1E78F6E">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 22:47:49 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="AEDCD879-15E9-D4C3-C811-E5A72C08505E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="83570AC5-6A26-C246-2D4A-E201FD5808A8" name="Radnik PK">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:12:07 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AEDCD879-15E9-D4C3-C811-E5A72C08505E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F17AC42-2C7C-85FB-C815-FE62816CDBCB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

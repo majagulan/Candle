@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="621C07FB-A292-EA77-4622-5983B3A770E8" name="FKArc_1">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 19:12:53 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>0ABDEF98-D0CA-161B-9805-DD2D36B1A138</table>
+<discriminatorColumn>B9CB3580-6352-E358-42B9-0EA26B63B6E7</discriminatorColumn>
+<fkeys>
+<fkeyID>606DAE43-50CB-C9D1-8442-27CBC7845198</fkeyID>
+<fkeyID>CE38283E-DE52-7491-5227-FBFB200687ED</fkeyID>
+</fkeys>
+</FKArc>

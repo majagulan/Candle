@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9237102B-8A96-0F38-B416-E872FFF49BFD" containerWithKeyObject="0C473CB7-5C61-002C-4757-08C3FEC8042C" localFKIndex="E6D16DC9-2353-8E78-F3D4-065AB22717A4" name="Racun_vid_Videoteka_FK">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 19:12:53 UTC</createdTime>
+<generatorID>D197F84A-6DB3-CEC4-9114-304CF4B8DC29</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<referredTableLongName>Videoteka</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5C170FF1-5844-CD71-85A5-C2AABE801FD2</referredTableID>
+<keyObject>C8866094-E386-A2B8-4F9F-76DEACF9087C</keyObject>
+<referredKeyID>C8866094-E386-A2B8-4F9F-76DEACF9087C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>v_naziv</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

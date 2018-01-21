@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7678B8C8-18DD-5118-E9A1-EF6170E07B01" containerWithKeyObject="755EC196-7369-41EB-156D-68A93D1268BF" localFKIndex="883465EA-A725-27EF-69FD-AC5957D17984" name="Salterski_Radnik_FK">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:26:09 UTC</createdTime>
+<generatorID>2B7FB2ED-4D08-9FD6-89F0-77EA245FF004</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<referredTableLongName>Radnik</referredTableLongName>
+<arc>E21D85D6-1077-4C82-BA11-F7B1F52C5970</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6116F0A6-598A-80C3-3F49-B1BF1B649341</referredTableID>
+<keyObject>5DA3A306-D951-969A-E275-3FB35879DACC</keyObject>
+<referredKeyID>5DA3A306-D951-969A-E275-3FB35879DACC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IBR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Salterski</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

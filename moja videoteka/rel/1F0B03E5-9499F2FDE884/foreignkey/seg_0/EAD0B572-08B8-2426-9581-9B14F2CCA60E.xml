@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EAD0B572-08B8-2426-9581-9B14F2CCA60E" containerWithKeyObject="44AEA4CF-AB81-3EFC-2609-A29BC5A216B0" localFKIndex="2E679989-E524-0A93-393D-9EC173143E9D" name="Video_Polica_FK">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:26:09 UTC</createdTime>
+<generatorID>54C40DB5-11F6-1E7D-2E21-DE25085E65D6</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<referredTableLongName>Polica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DE5C9C35-C5E0-58CE-9755-A45046547A68</referredTableID>
+<keyObject>626AE03D-7B03-BB32-33A2-1551A7F8E8BD</keyObject>
+<referredKeyID>626AE03D-7B03-BB32-33A2-1551A7F8E8BD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sifra_p</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C12E6BD-8168-B3A0-9588-7333CFDA2D13" name="Salterski">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 19:12:53 UTC</createdTime>
+<generatorID>1AC292F2-D7F8-B8D6-D311-AFB2DACF8F3D</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IBR" id="EA56509B-C187-12A3-BC63-B03CE8770CF9">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 19:12:53 UTC</createdTime>
+<generatorID>7F17AC42-2C7C-85FB-C815-FE62816CDBCB</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="606DAE43-50CB-C9D1-8442-27CBC7845198" referredColumn="B9CB3580-6352-E358-42B9-0EA26B63B6E7"/>
+</associations>
+</Column>
+<Column name="IBR_S" id="D7F942E9-D028-40A9-FDF7-F30D2011A225">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 19:12:53 UTC</createdTime>
+<generatorID>4B38874E-047A-1067-4A46-A13011124603</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_s" id="F938A8AA-06FC-9457-C6FD-4D28779BC188">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 19:12:53 UTC</createdTime>
+<generatorID>CEF80B1D-8828-3B36-C53B-92F534171597</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime_s" id="9E260022-6FD6-6CE1-B8F2-F845A0CF8234">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 19:12:53 UTC</createdTime>
+<generatorID>E3C452BB-1C38-4A18-7307-2B64CD2E6CD5</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plata_s" id="63073CA2-B390-EFFA-B3A0-A3EE5B2C2458">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 19:12:53 UTC</createdTime>
+<generatorID>595EDA99-417C-F5BD-DCDC-F3DE65AC2B36</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1377148-E862-76CE-F114-B916455BDB09" name="Salterski_PK">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 19:12:53 UTC</createdTime>
+<generatorID>83570AC5-6A26-C246-2D4A-E201FD5808A8</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA56509B-C187-12A3-BC63-B03CE8770CF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20807E37-C978-F03E-51A6-B4F03AA719B8" name="Salterski_PKv1">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 19:12:53 UTC</createdTime>
+<generatorID>AF975DC3-0F48-1793-7AE1-AD723C920A20</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7F942E9-D028-40A9-FDF7-F30D2011A225"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6CD9454-1E2F-0D63-562C-6B942B33F892" name="Salterski_Radnik_FK">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 19:12:53 UTC</createdTime>
+<generatorID>2B7FB2ED-4D08-9FD6-89F0-77EA245FF004</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA56509B-C187-12A3-BC63-B03CE8770CF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

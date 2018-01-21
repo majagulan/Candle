@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF482A90-2D18-2E89-A4DA-3CC055FA9D32" name="Cl_karta">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:26:09 UTC</createdTime>
+<generatorID>1C3F6109-6369-5BCD-EC8F-E68ED3DA61C8</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sifra_kar" id="4814D11F-122E-C3BA-75C9-72EA42296B3F">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:26:09 UTC</createdTime>
+<generatorID>9EA2F9D5-5BAC-CB6C-70FA-4D1836A4396F</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ratum_izdavanja" id="3D36DBF1-44C8-3017-FFB0-C588124A90F1">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:26:09 UTC</createdTime>
+<generatorID>C523EF6D-1AA3-0699-5029-02948FF2F5AE</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_vazenja" id="EB6036AC-80DB-E7EE-BC90-4FCBEDD386F4">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:26:09 UTC</createdTime>
+<generatorID>B0D7A887-D46D-5738-669A-7C212E0BEF88</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clan_sifra_c" id="496A85C7-5C35-6535-1E46-D9F565BA4409">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:26:09 UTC</createdTime>
+<generatorID>A1EF02C2-EB63-BF3C-327B-11EDA7CAADC8</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC120D18-F148-1FFD-55F1-C82F434EFA75" referredColumn="67318BF5-C6CD-19F7-9F8E-63CCAFC9A98C"/>
+</associations>
+</Column>
+<Column name="Videoteka_v_naziv" id="96A85DAE-5B2E-C120-AB43-4103C8C58B6A">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:26:09 UTC</createdTime>
+<generatorID>695A263E-25C4-6FD7-A9BC-1614234F3E8E</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55DA79AD-ACC3-5BB9-D3A4-ABD29F26AF23" referredColumn="6803CE7C-68B1-9A2D-5F9F-8642075FC57B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02CFD7FE-5081-D709-2BAB-E45106315BDF" name="Cl_karta_PK">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:26:09 UTC</createdTime>
+<generatorID>C0B89466-A11C-EE15-AFB8-57712745A39C</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4814D11F-122E-C3BA-75C9-72EA42296B3F"/>
+<colUsage columnID="496A85C7-5C35-6535-1E46-D9F565BA4409"/>
+<colUsage columnID="96A85DAE-5B2E-C120-AB43-4103C8C58B6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23E5984B-6501-4149-2AE5-E49F50329660" name="Cl_karta_Clan_FK">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:26:09 UTC</createdTime>
+<generatorID>9BAC6AB1-CC11-257A-703B-857092CA855C</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="496A85C7-5C35-6535-1E46-D9F565BA4409"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2CBB138-F06C-14CE-E492-4F0FB916D7A6" name="Cl_karta_Videoteka_FK">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:26:09 UTC</createdTime>
+<generatorID>304E296E-1D29-1F90-3B9F-1284C6B13189</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96A85DAE-5B2E-C120-AB43-4103C8C58B6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

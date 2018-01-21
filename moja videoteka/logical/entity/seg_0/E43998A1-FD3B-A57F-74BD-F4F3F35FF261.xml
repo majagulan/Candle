@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E43998A1-FD3B-A57F-74BD-F4F3F35FF261" name="Admin">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:12:24 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>DCC27D9B-758A-4896-7CE1-552887CE0DA3</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IBR_A" id="12958FB7-DF5E-C483-24F6-450A4B816363">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:12:33 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime_a" id="2CBEB4FD-346F-3FA9-AA4C-737B52F91756">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:12:46 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezime_a" id="C9DFD7A1-3857-1B6B-DF61-5FC20657E657">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:12:54 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plata_a" id="92DC158F-11D0-15F1-D065-23F8E1B0EB17">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:13:05 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B511ECEB-6D8D-220E-48CA-8212F39C6A66" name="Admin PK">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:12:45 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12958FB7-DF5E-C483-24F6-450A4B816363</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

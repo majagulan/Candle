@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4C936496-3903-38A4-8146-A0D3DA500298" mainViewID="07EF7E29-E823-B37D-7361-847F3AFAC00C">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:08:05 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CE38283E-DE52-7491-5227-FBFB200687ED" containerWithKeyObject="A5B2ECEE-9783-97C5-7167-614A75CEC71D" localFKIndex="F38BF592-0819-90ED-441A-2BD36BF41F9C" name="Admin_Radnik_FK">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 19:12:53 UTC</createdTime>
+<generatorID>71EA94CC-C922-0DBA-C1F6-216C015DF742</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<referredTableLongName>Radnik</referredTableLongName>
+<arc>621C07FB-A292-EA77-4622-5983B3A770E8</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0ABDEF98-D0CA-161B-9805-DD2D36B1A138</referredTableID>
+<keyObject>B97ADCB6-A959-51EA-8770-5B5E2C02DF93</keyObject>
+<referredKeyID>B97ADCB6-A959-51EA-8770-5B5E2C02DF93</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IBR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Admin</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

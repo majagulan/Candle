@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_14" directorySegmentName="seg_0" id="76288F79-AD15-3A59-CC4B-E275C9F6E7B6">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:23:04 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<sourcePk>A94431C1-BF14-C28D-3B40-F26498C0CB8A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>86726DDB-23C5-0342-EA85-AE29E0A6C1E3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7F42EAF9-6010-2133-6122-0D60187C72C6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

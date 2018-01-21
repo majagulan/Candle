@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4D47676B-A970-954D-3E09-61CFE46B3D01" containerWithKeyObject="6F3E90BE-6F8B-3B86-2247-FC0B3A4BB446" localFKIndex="314E7F6A-1C97-3416-E871-B992E36B2D91" name="Racun_clana_Clan_FK">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:26:09 UTC</createdTime>
+<generatorID>40EB54B4-4D35-06AA-6889-4F7F66D7F37C</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<referredTableLongName>Clan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>249694BB-1638-7305-D0DA-DA676FB6E832</referredTableID>
+<keyObject>318D1763-CBA6-4982-1ECB-09FD6412A7BD</keyObject>
+<referredKeyID>318D1763-CBA6-4982-1ECB-09FD6412A7BD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sifra_c</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

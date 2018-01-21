@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE40982E-F4F5-8ED9-A745-79EEEFF4586A" name="Izdat">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:10:55 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="izdat_d" id="14F4BC66-CBD5-E867-278B-057945DF2A8D">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:11:02 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rok_d" id="DB914760-0E25-BC90-CC16-079C0344681B">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:11:09 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sifra_v" id="D1198E90-F7FD-0A33-1F07-ACCB4C6371A1">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:15:03 UTC</createdTime>
+<generatorID>FB9FBE06-77A7-77B9-32DC-A7CAF0CE4C76</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<referedAttribute>E12FB496-7510-4C7F-49A3-6D85D1E475DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sifra_kar" id="455A59B2-D2D2-18F5-59BC-5DD0FE81FD1E">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:17:15 UTC</createdTime>
+<generatorID>6B03FA75-A54C-7BCF-BF51-BE7935CC92DF</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<referedAttribute>9EA2F9D5-5BAC-CB6C-70FA-4D1836A4396F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sifra_c" id="A0CBB9F8-17DB-60AA-138B-2C23BBA6B0EA">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:17:18 UTC</createdTime>
+<generatorID>6B03FA75-A54C-7BCF-BF51-BE7935CC92DF</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<referedAttribute>A1EF02C2-EB63-BF3C-327B-11EDA7CAADC8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="v_naziv" id="9BF4C153-1E49-0C11-7895-BF9157824FC5">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:18:32 UTC</createdTime>
+<generatorID>6B03FA75-A54C-7BCF-BF51-BE7935CC92DF</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<referedAttribute>695A263E-25C4-6FD7-A9BC-1614234F3E8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25FEFEA6-0BF4-7492-8764-EF9280B81BDA" name="Izdat PK">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:15:03 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1198E90-F7FD-0A33-1F07-ACCB4C6371A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

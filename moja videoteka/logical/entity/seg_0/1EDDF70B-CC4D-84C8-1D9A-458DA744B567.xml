@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1EDDF70B-CC4D-84C8-1D9A-458DA744B567" name="Sala">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:19:00 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="AEDCD879-15E9-D4C3-C811-E5A72C08505E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="s_naziv" id="3A43F35B-B8EC-B09A-295D-F2F748CD2C78">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:19:07 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="AEDCD879-15E9-D4C3-C811-E5A72C08505E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_mesta" id="3C22E10C-2A90-AD0B-3133-733B52C47D82">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:19:17 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="AEDCD879-15E9-D4C3-C811-E5A72C08505E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cena_izd" id="2FDDBA4F-9980-9CF0-7E06-AA93097BD2A7">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:19:27 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="AEDCD879-15E9-D4C3-C811-E5A72C08505E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="v_naziv" id="2EEFD5EF-7414-DE9C-8415-3109847C4BC2">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:19:54 UTC</createdTime>
+<generatorID>F1BE013A-AA7B-EC18-F549-AAC182F0B28F</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="AEDCD879-15E9-D4C3-C811-E5A72C08505E" value="true"/>
+</engineerTo>
+<referedAttribute>A11CCB74-993D-23C7-68EF-BD1471A44608</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IBR_S" id="6D1D1850-DFE4-7D9F-2AEF-AE72B4498999">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 23:57:28 UTC</createdTime>
+<generatorID>93049DB0-BB88-8AC1-F6A9-0CEC0C4252BF</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="AEDCD879-15E9-D4C3-C811-E5A72C08505E" value="true"/>
+</engineerTo>
+<referedAttribute>4B38874E-047A-1067-4A46-A13011124603</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="252756A6-0688-F1C7-160F-686065002B83" name="Sala PK">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:19:43 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AEDCD879-15E9-D4C3-C811-E5A72C08505E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A43F35B-B8EC-B09A-295D-F2F748CD2C78</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

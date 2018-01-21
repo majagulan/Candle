@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C3F6109-6369-5BCD-EC8F-E68ED3DA61C8" name="Cl karta">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:16:13 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sifra_kar" id="9EA2F9D5-5BAC-CB6C-70FA-4D1836A4396F">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:16:24 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ratum_izdavanja" id="C523EF6D-1AA3-0699-5029-02948FF2F5AE">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:16:43 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_vazenja" id="B0D7A887-D46D-5738-669A-7C212E0BEF88">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:16:51 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sifra_c" id="A1EF02C2-EB63-BF3C-327B-11EDA7CAADC8">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:17:18 UTC</createdTime>
+<generatorID>9BAC6AB1-CC11-257A-703B-857092CA855C</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<referedAttribute>337FB006-8797-1CC8-32C8-E3D64C6F6F54</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="v_naziv" id="695A263E-25C4-6FD7-A9BC-1614234F3E8E">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:18:32 UTC</createdTime>
+<generatorID>304E296E-1D29-1F90-3B9F-1284C6B13189</generatorID>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<referedAttribute>A11CCB74-993D-23C7-68EF-BD1471A44608</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0B89466-A11C-EE15-AFB8-57712745A39C" name="Cl karta PK">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:17:06 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<engineerTo>
+<item key="1F0B03E5-988E-4B25-B52B-9499F2FDE884" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9EA2F9D5-5BAC-CB6C-70FA-4D1836A4396F</attributeRef>
+<attributeRef>A1EF02C2-EB63-BF3C-327B-11EDA7CAADC8</attributeRef>
+<attributeRef>695A263E-25C4-6FD7-A9BC-1614234F3E8E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

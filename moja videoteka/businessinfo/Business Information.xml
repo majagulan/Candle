@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="4B557735-7B73-3C0D-01EE-5698FAA4D013">
+<createdBy>maja</createdBy>
+<createdTime>2018-01-18 17:08:06 UTC</createdTime>
+<ownerDesignName>moja videoteka</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
